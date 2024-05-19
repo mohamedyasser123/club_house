@@ -10,6 +10,7 @@ class userprofile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("object");
     return ClipRRect(
      // borderRadius: BorderRadius.circular(size/10s - size/2s),
       child: Image.network(
